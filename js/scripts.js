@@ -1,9 +1,5 @@
 const xhr = new XMLHttpRequest();
 
-xhr.onload = () => {
-  console.log(this.responseText);
-}
-
 let postPersonalInfo = () => {
   let payload = {
     firstName: document.getElementById('nameInput').value,
